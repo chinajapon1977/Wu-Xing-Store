@@ -5,11 +5,15 @@ backend:
 media_folder: "img"
 public_folder: "/img"
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "productos"
     label: "Productos"
     folder: "content/productos"
     create: true
+    format: "frontmatter"
+    extension: "md"
     slug: "{{slug}}"
     fields:
       - { label: "Nombre", name: "title", widget: "string" }

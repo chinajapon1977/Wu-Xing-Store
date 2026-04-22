@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: wuxingstore/chinajapon1977
+  name: git-gateway
   branch: main
 
 media_folder: "img"

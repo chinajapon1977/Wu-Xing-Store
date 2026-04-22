@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TU_USUARIO/chinajapon1977
+  repo: wuxingstore/chinajapon1977
   branch: main
 
 media_folder: "img"

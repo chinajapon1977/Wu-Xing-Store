@@ -1,19 +1,16 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: TU_USUARIO/chinajapon1977
   branch: main
 
 media_folder: "img"
 public_folder: "/img"
-
-publish_mode: editorial_workflow
 
 collections:
   - name: "productos"
     label: "Productos"
     folder: "content/productos"
     create: true
-    format: "frontmatter"
-    extension: "md"
     slug: "{{slug}}"
     fields:
       - { label: "Nombre", name: "title", widget: "string" }
